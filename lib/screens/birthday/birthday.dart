@@ -27,7 +27,7 @@ class _FizBirthdayState extends State<FizBirthday> {
             //如果今天过生日的人太多的话不能往下滑查看
             //也不知道如何解决
             //因为不能expanded,所以只能以后写一个动态的吧
-                URLRequest(url: WebUri("https://arcbomi.github.io/birthday")),
+                URLRequest(url: WebUri("https://arcbomi.github.io/fizmat/arcbomi/birthday")),
           ),
         ),
       ],

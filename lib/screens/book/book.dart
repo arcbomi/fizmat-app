@@ -13,7 +13,7 @@ class _FizBookOnlineState extends State<FizBookOnline> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: InAppWebView(initialUrlRequest: URLRequest(url: WebUri("https://arcbomi.github.io/book")))
+        child: InAppWebView(initialUrlRequest: URLRequest(url: WebUri("https://arcbomi.github.io/fizmat/arcbomi/book-online/")))
       ),
     );
   }

@@ -13,7 +13,7 @@ class _FizFormulaState extends State<FizFormula> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: InAppWebView(initialUrlRequest: URLRequest(url: WebUri("https://arcbomi.github.io/formula/algebra")))
+        child: InAppWebView(initialUrlRequest: URLRequest(url: WebUri("https://arcbomi.github.io/fizmat-formula-book")))
       ),
     );
   }

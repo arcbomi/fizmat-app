@@ -13,7 +13,7 @@ class _FizTimetbState extends State<FizTimetb> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: InAppWebView(initialUrlRequest: URLRequest(url: WebUri("https://arcbomi.github.io/timetable")))
+        child: InAppWebView(initialUrlRequest: URLRequest(url: WebUri("https://arcbomi.github.io/fizmat/arcbomi/timetable/")))
       ),
     );
   }
