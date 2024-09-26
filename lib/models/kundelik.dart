@@ -18,12 +18,10 @@ class FizKundelikInfo {
   });
 
   static FizKundelikInfo getCurrentKundelik = FizKundelikInfo(
-      cookies: null,
       cookiesExpire: null,
       isKundelikLogin: false,
       login: "",
       password: "",
-      token: null,
       tokenExpire: 0,
     );
 

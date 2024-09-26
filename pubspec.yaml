@@ -41,11 +41,7 @@ dependencies:
   url_launcher: ^6.3.0
   flutter_inappwebview: ^6.0.0
   http: ^1.2.2
-  firebase_core: ^3.4.1
-  firebase_auth: ^5.2.1
-  firebase_analytics: ^11.3.1
-  google_sign_in: ^6.2.1
-
+ 
   shared_preferences: ^2.3.1
   
 
