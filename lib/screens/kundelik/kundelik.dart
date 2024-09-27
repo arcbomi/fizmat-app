@@ -4,7 +4,7 @@ import 'package:fizmat_app/providers/kundelik/kundelik_auth.dart';
 class GetInfoScreen extends StatefulWidget {
   final String token;
 
-  GetInfoScreen({required this.token});
+  const GetInfoScreen({required this.token});
 
   @override
   _GetInfoScreenState createState() => _GetInfoScreenState();
@@ -62,7 +62,6 @@ class _GetInfoScreenState extends State<GetInfoScreen> {
           padding: const EdgeInsets.all(16.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Text(
                 'Short Name:',

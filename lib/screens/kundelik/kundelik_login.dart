@@ -11,7 +11,7 @@ class _FizKunLoginState extends State<FizKunLogin> {
   final _usernameController = TextEditingController();
   final _passwordController = TextEditingController();
 
-  void _login() async {
+  Future<void> _login() async {
     final username = _usernameController.text;
     final password = _passwordController.text;
 
