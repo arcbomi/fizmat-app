@@ -50,6 +50,5 @@ app.*.map.json
 .idea
 .dart_tool
 /build
-/web
 /build/
 /web/
