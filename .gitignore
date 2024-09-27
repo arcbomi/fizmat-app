@@ -51,4 +51,3 @@ app.*.map.json
 .dart_tool
 /build
 /build/
-/web/
