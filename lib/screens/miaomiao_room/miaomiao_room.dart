@@ -5,7 +5,7 @@ import 'dart:math';
 class BlackRoomScreen extends StatefulWidget {
   final DateTime endTime; // 结束时间
 
-  BlackRoomScreen({required this.endTime});
+  const BlackRoomScreen({required this.endTime});
 
   @override
   _BlackRoomScreenState createState() => _BlackRoomScreenState();
